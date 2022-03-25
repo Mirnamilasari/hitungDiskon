@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Menghitung Diskon </title>
+</head>
+<body>
+	<main>
+	<center><h1>Mencari Nilai Diskon</h1></center>
+
+	<center>
+	<table>
+		<tr>
+			<td><h3> Harga Barang :</h3></td>
+			<td><input type="text" id="harga"></td>
+		</tr>
+		<tr>
+			<td><h3> Besar Diskon :</h3></td>
+			<td><input type="text" id="diskon"onkeyup="cari()"></td>
+		</tr>
+		<tr>
+			
+		</tr>
+		<tr>
+			<td><h3> Jumlah Bayar:</h3></td>
+			<td><input type="text" id="hasil"></td>
+		</tr>
+	</table></center>
+</main>
+	<script>
+		var cari = function (){
+			var harga = document.getElementById('harga').value;
+			var diskon = document.getElementById('diskon').value;
+			
+			var hasil = harga - (diskon * harga) / 100;
+			
+			document.getElementById('hasil').value = hasil;
+		}
+		
+		 
+	</script>
+	<footer>
+		<center><h4>Mirna Milasari_20050974043_PTI2020A</h4></center> 
+	</footer>
+</body>
+</html>

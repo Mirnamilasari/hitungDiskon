@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/54/Gfp-hallway-in-mall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 90px;
+    letter-spacing: 5px;
+    color: #cbec0e;
+    font-style:italic;
+}
+
+table {
+    margin-bottom: 30px;
+    font-size: 90px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-style:oblique;
+    line-height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+footer {
+    font-style: oblique;
+    color: rgb(165, 11, 11);
+    
+}
